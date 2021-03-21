@@ -1,0 +1,895 @@
+/*:-webkit-scrollbar {
+  display: none;
+}*/
+
+/*Body CSS*/
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    position:
+  }
+
+/*html, body{
+  overflow-x: hidden;
+  }*/
+
+.container-fluid {
+  padding: 7% 30%;
+}
+
+ h2, h3, h4, h5, h6 {
+font-weight: bold;
+}
+
+p {
+  color: #8F8F8F
+}
+
+
+/* Headings
+.big-heading {
+  position: relative;
+  word-break: break-word;
+  right: 45px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #4e282e;
+}*/
+
+/*Heading CSS*/
+.big-heading {
+  background-color:#DCc3a0;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+}
+
+.container {
+  width: 30%;
+  margin: 100px;
+}
+
+h1 {
+  /* main background is gradient*/
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+  /*background: linear-gradient(to bottom,  #4e282e 0%,#fff 50%,#e6c79c 51%,#DCc3a0 100%);*/
+  background-blend-mode: multiply;
+  background-size: 10px $font-size;
+  background-repeat: repeat;
+  line-height: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.section-heading{
+  position: relative;
+  bottom: 80px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  color: #fff;
+}
+
+.white-section p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
+  color: #7f8c8d;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Sections 1c1618 */
+.colored-section {
+  background-color: #211b1e;
+}
+
+/* Copy Rights */
+.white-section {
+  background-color: #DCc3a0
+}
+
+
+/* Navigation Bar*/
+.navbar {
+  padding: 10px 5px;
+  padding-bottom: 50px;
+}
+
+/*  position: fixed;
+  z-index: 2;
+*/
+
+
+.navbar-brand {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  position: relative;
+  left: -20px;
+}
+
+.nav-item {
+  padding: 0 5px;
+  position: relative;
+  right: -50px;
+}
+
+.nav-link {
+  font-size: 15px;;
+  font-family: 'Press Start 2P', cursive;
+}
+
+@media (max-width: 952px){
+  .nav-brand {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+}
+
+/* Title Image */
+.title-image {
+  position: absolute;
+  right: 30px;
+  top: 130px;
+}
+
+/*title CSS*/
+#title .container-fluid{
+  padding: 1% 15% 1%;
+  text-align: left;
+}
+
+/*Tonks Trailer*/
+
+#trailer {
+  background-color:#DCc3a0;
+}
+
+.tonks-trailer{
+  width: 110%;
+  height: 120%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Gonk img {
+  width:45%;
+  height:auto;
+  top: 50px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Bonk img {
+  width:45%;
+  height:auto;
+  top: 50px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin-bottom: 10px;
+  margin-left: 80px;
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(-50deg, blue 50%, green 50%);
+  position: relative;
+  top:10px;
+}
+
+/*Comment Section*/
+
+#disqus {
+  width:100%;
+  padding:10px 100px;
+  font-family: 'Press Start 2P', cursive;
+  background-color:#DCc3a0;
+}
+
+
+/* Back-to-top Button*/
+#topBtn {
+  position: fixed;
+  border-radius: 60%;
+  bottom: -15px;
+  float: right;
+  right: 15px;
+  max-width: 75px;
+  margin: 5% 0% 5% 0;
+  z-index: 2;
+}
+
+#topBtn img {
+  width: 50px;
+}
+
+/*Tonks Patches*/
+#tonkshead{
+  background-color:  #DCc3a0;
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#tonkshead .container-fluid {
+  position: relative;
+  bottom: 30px;
+}
+
+/*Development blog*/
+/*update1*/
+.updates1{
+  background-color: #DCc3a0;
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size:15px;
+}
+
+.updates1 ul {
+  position: relative;
+  top:20px;
+}
+
+.updates1 h2 {
+  text-align: center;
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size:20px;
+  position: relative;
+  top:10px;
+}
+
+.updates1 .container-fluid {
+  position: relative;
+  bottom:250px;
+}
+
+.updates1 button{
+  width:50%;
+  margin-left:25%;
+  border-radius: 20px;
+  border: 2.5px solid black;
+  padding: 3px;
+  background:#000000;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+/*update2*/
+.updates2{
+  background-color: #DCc3a0;
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size:15px;
+}
+
+.updates2 ul {
+  position: relative;
+  top:20px;
+}
+
+.updates2 h2 {
+  text-align: center;
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size:20px;
+  position: relative;
+  top:10px;
+}
+
+.updates2 .container-fluid {
+  position: relative;
+  bottom:200px;
+}
+
+.updates2 button{
+  width:50%;
+  margin-left:25%;
+  border-radius: 20px;
+  border: 2.5px solid black;
+  padding: 3px;
+  background:#000000;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+
+/*update3*/
+.updates3{
+  background-color: #DCc3a0;
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size:15px;
+}
+
+.updates3 ul {
+  position: relative;
+  top:20px;
+}
+
+.updates3 h2 {
+  text-align: center;
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size:20px;
+  position: relative;
+  top:10px;
+}
+
+.updates3 .container-fluid {
+  position: relative;
+  bottom:150px;
+}
+
+.updates3 button{
+  width:50%;
+  margin-left:25%;
+  border-radius: 20px;
+  border: 2.5px solid black;
+  padding: 3px;
+  background:#000000;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+/*update4*/
+.updates4{
+  background-color: #DCc3a0;
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size:15px;
+}
+
+.updates4 ul {
+  position: relative;
+  top:20px;
+}
+
+.updates4 h2 {
+  text-align: center;
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size:20px;
+  position: relative;
+  top:10px;
+}
+
+.updates4 .container-fluid {
+  position: relative;
+  bottom:100px;
+}
+
+.updates4 button{
+  width:50%;
+  margin-left:25%;
+  border-radius: 20px;
+  border: 2.5px solid black;
+  padding: 3px;
+  background:#000000;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+/* Game Maps */
+#maps {
+  background-color: #211b1e;
+  padding: 110px;
+}
+
+
+#maps img {
+  bottom: 60px;
+  width: 50%;
+  margin: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.carousel-indicators button{
+  border-radius: 5px;
+  border: 2.5px solid black;
+  background: none;
+  font-family: 'Press Start 2P', cursive;
+  color:#fff;
+  font-size: 13px;
+  position: relative;
+  margin: 7px;
+  bottom: -120px;
+  padding: 0px 0.5px;
+}
+
+.carousel-indicators button:hover{
+  background:green;
+  transition: 0.8s;
+
+
+}
+
+.slidershow h3 {
+  position: relative;
+  bottom: -10px;
+  font-size: 13px;
+  font-family: 'Press Start 2P', cursive;
+  color: #DCc3a0;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  line-height: 15px;
+  padding:0px;
+  height:50px;
+}
+
+.player-btns {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  line-height: 15px;
+  padding: 0;
+  white-space: nowrap;
+  height: 40px;
+}
+
+
+.slidershow {
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom:60px;
+}
+
+#cta h3 {
+  text-align: center;
+  position: relative;
+  left: 10px;
+}
+
+/*Developer Section*/
+
+#team {
+  background-color: #211b1e;
+/*min-height: calc(100vh - 230px - 90px);*/
+}
+
+.team-section{
+  padding:100px;
+}
+
+#team h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  top: -80px;
+}
+
+#team img {
+  width: 6%;
+  margin: 6px;
+  margin-right: 50px;
+  position: relative;
+  top: -50px;
+  padding-bottom:54px;
+}
+
+#team em {
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  color:#DCc3a0;
+  position: absolute ;
+  bottom: 55px;
+  left:180px;
+  white-space: nowrap;
+  padding-bottom:54px;
+  margin-left:-30px;
+}
+
+.team-names {
+  position: relative;
+  right: 150px;
+}
+
+.google-map {
+  float:left;
+  position: relative;
+  right:50px;
+}
+
+.map-heading h2 {
+  text-align: left;
+  position: relative;
+  bottom:20px;
+  font-size: 20px;
+  white-space: nowrap;
+  margin-left: -25px;
+}
+
+
+/*Feedback Form*/
+#feedback {
+  display:flex;
+  min-height: 100vh;
+  background-color: #DCc3a0;
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+
+.fed-form{
+  width:400px;
+  position: relative;
+  bottom: -80px;
+  float:right;
+}
+
+.fed-form form {
+  padding: 25px 20px;
+  position: relative;
+  top: -100px;
+}
+
+form h2{
+  color:#fff;
+  padding: 10px 0;
+}
+
+form .form-fill {
+  position: relative;
+}
+
+.form-fill i{
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+form textarea {
+  margin: 4px 0px;
+  padding: 5px 15px;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background: #181717;
+  width: 100%;
+  color:#fff;
+  padding-right: 20px;
+  /*resize: both;*/
+}
+
+form input{
+  width:100%;
+  height: 30px;
+  margin: 4px 0px;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  background: #181717;
+  padding: 0 15px;
+  color: #fff;
+  padding-right: 40px
+}
+
+form button{
+  margin-top:5px;
+  background: none;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 900;
+  border-radius: 3px;
+  border: 2.5px solid black;
+}
+
+form button:hover{
+background:green;
+transition: 1.2s;
+}
+
+form input:focus,
+form textarea:focus {
+  border:1px solid #00fff0;
+  color: #DCc3a0;
+  transition: all 0.3s ease;
+}
+
+form input:focus::placeholder,
+form textarea:focus::placeholder {
+  padding-left: 4px;
+  color: #DCc3a0;
+  transition: all 0.3s ease;
+}
+
+form input:focus + i {
+  color: #DCc3a0;
+  transition: all 0.3s ease;
+}
+
+form textarea:focus + i {
+  color: #DCc3a0;
+  transition: all 0.3s ease;
+}
+/* Social Media Contacts */
+
+#footer {
+  background-color: #211b1e;
+  padding:5px;
+  position: relative;
+  bottom: 0px;
+  width:100%;
+}
+
+#footer p {
+  position: relative;
+  bottom:-7px;
+  color: #fff;;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color:#fff;
+}
+
+.tonk-logo img {
+  height: auto;
+  max-width: 100%;
+}
+
+ .darkmode-toggle {
+  z-index: 2;
+}
+
+.darkmode--activated #title{
+  mix-blend-mode: screen ;
+  background: #000000;
+}
+
+.darkmode--activated #maps{
+  mix-blend-mode: difference;
+  background: #000000;
+}
+
+.darkmode--activated #footer{
+  background: #000000;
+}
+
+.darkmode--activated button{
+  border: 1px solid white;
+}
+
+.darkmode--activated #trailer {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated #testimonials {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated #team {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated .updates1 {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated .updates2 {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated .updates3 {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated .updates4 {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated .updates1 ul {
+  mix-blend-mode: difference;
+  color: #DCc3a0;
+}
+
+.darkmode--activated .updates2 ul {
+  mix-blend-mode: difference;
+  color: #DCc3a0;
+}
+
+.darkmode--activated .updates3 ul {
+  mix-blend-mode: difference;
+  color: #DCc3a0;
+}
+
+.darkmode--activated .updates4 ul {
+  mix-blend-mode: difference;
+  color: #DCc3a0;
+}
+
+.darkmode--activated .updates4 button {
+  background: none;
+}
+
+.darkmode--activated .updates1 button:hover {
+  background: linear-gradient(-50deg, blue 50%, green 50%);
+}
+
+.darkmode--activated .updates2 button:hover {
+  background: linear-gradient(-50deg, blue 50%, green 50%);
+}
+
+.darkmode--activated .updates3 button:hover {
+  background: linear-gradient(-50deg, blue 50%, green 50%);
+}
+
+.darkmode--activated .updates4 button:hover {
+  background: linear-gradient(-50deg, blue 50%, green 50%);
+}
+
+.darkmode--activated #tonkshead {
+  mix-blend-mode: difference;
+  background: #151515;
+}
+
+.darkmode--activated h2{
+  color:#a885da;
+}
+
+.darkmode--activated form input:focus + i{
+  color:#a885da;
+}
+
+.darkmode--activated form textarea:focus + i {
+  color:#a885da;
+}
+
+.darkmode--activated form input:focus::placeholder{
+  color:#a885da;
+}
+
+.darkmode--activated form textarea:focus::placeholder{
+  color:#a885da;
+}
+
+.darkmode--activated #feedback{
+  mix-blend-mode: difference;
+  background:#151515;
+}
+
+.darkmode--activated form button{
+  color:#fff;
+}
+
+.darkmode--activated form {
+  mix-blend-mode:difference;
+  color:#000000;
+}
+
+.darkmode--activated form i {
+  color: #fff;
+}
+.darkmode--activated #disqus {
+  mix-blend-mode: difference;
+  background-color:#151515;
+}
+
+
+.slideshow-container {
+  padding-right: 150px;
+  justify-content: center;
+}
+
+/* Hide the images by default */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  padding: 6px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

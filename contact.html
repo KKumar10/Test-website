@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googlea.com/css?family=Saira:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+
+  <!-- Fontawesome CDN kit -->
+  <script src="https://kit.fontawesome.com/5109cef3e4.js" crossorigin="anonymous"></script>
+  <title>Tonks Game</title>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/jpg" href="images/tonks.png"/>
+
+</head>
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="index.html"> <img src="images/tonks.png" width="170" height="90"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html#trailer">Trailer</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html#maps">Maps</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="update.html">Updates</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+  <section class = "feedback-form" id="feedback">
+    <div class="container-fluid">
+
+      <div class="map-heading">
+        <h2> Tonks Head Quaters </h2>
+      </div>
+
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.5734540516596!2d-1.8904060843043033!3d52.486858379807956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc9ae4f2e4b3%3A0x9a670ba18e08a084!2sAston%20University!5e0!3m2!1sen!2suk!4v1616199788177!5m2!1sen!2suk" width="400" height="350" style="border:0;"allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class="fed-form">
+      <form>
+        <h2>Feedback</h2>
+
+        <div class = "form-fill">
+          <input type="text" placeholder="First Name" required>
+          <i class = "far fa-user"></i>
+        </div>
+
+        <div class = "form-fill">
+          <input type="text" placeholder="Last Name"required>
+          <i class = "far fa-user"></i>
+        </div>
+
+        <div class = "form-fill">
+          <input type="email" placeholder="Email"required>
+          <i class = "far fa-envelope"></i>
+        </div>
+
+        <div class = "form-fill">
+          <textarea name="text" cols="25" rows="5" placeholder="Enter your feedbacks..."required></textarea>
+          <i class="material-icons">feedback</i>
+        </div>
+
+        <button>Send</button>
+      </div>
+    </div>
+  </form>
+
+</section>
+
+
+
+
+  <!-- Footer -->
+
+<footer class="white-section" id="footer">
+
+  <a href="http://facebook.com/" class="social-icon fab fa-facebook-f"></a>
+  <a href="https://twitter.com/" class="social-icon fab fa-twitter"></a>
+  <a href="https://www.instagram.com/" class="social-icon fab fa-instagram"></a>
+  <a href="https://mail.google.com/" class="social-icon fas fa-envelope"></a>
+
+  <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>,Tonks Game</p>
+
+</footer>
+
+<button id="topBtn"><a href="#top" style="color: white"><img src="images/scrollup.png" alt="up"></a></button>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
